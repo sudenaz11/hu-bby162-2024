@@ -1,0 +1,747 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOQi/xXmp53DbLlQF2seUXy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sudenaz11/hu-bby162-2024/blob/main/g%C3%B6revler4.hafta\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NHYu1XBmBjy4",
+        "outputId": "3d3f1708-b809-4b21-ca0e-3fbbc2aebb19"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "selam\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "print(\"selam\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "eposta = \"sudenazaydin755@gmil.com\"\n",
+        "print(\"eposta: \" + eposta)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "j0zPGzamIaeF",
+        "outputId": "1671e771-fb58-412e-bfe1-5746c0ff7c69"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "eposta: sudenazaydin755@gmil.com\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sude1 = \"aydın\"\n",
+        "print(sude2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 158
+        },
+        "id": "Rm2zQUWHJdP6",
+        "outputId": "69b6a892-0dee-4a11-ae8f-45cfd99657dc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'sude2' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-4-cc1afe459d63>\u001b[0m in \u001b[0;36m<cell line: 2>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0msude1\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"aydın\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msude2\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'sude2' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sayi = 3.14\n",
+        "print(type(sayi))\n",
+        "print(sayi)\n",
+        "\n",
+        "sayi = int(sayi)\n",
+        "print(type(sayi))\n",
+        "print(sayi)\n",
+        "\n",
+        "sayi = float(sayi)\n",
+        "print(type(sayi))\n",
+        "print(sayi)\n",
+        "\n",
+        "sayi = str(sayi)\n",
+        "print(type(sayi))\n",
+        "print(sayi)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M5o_UM9hJ2xm",
+        "outputId": "8145aa43-2516-48ff-fcc3-f03a7d40b8af"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'float'>\n",
+            "3.14\n",
+            "<class 'int'>\n",
+            "3\n",
+            "<class 'float'>\n",
+            "3.0\n",
+            "<class 'str'>\n",
+            "3.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sayi = 55\n",
+        "sayi += 20\n",
+        "print(sayi)\n",
+        "\n",
+        "sayi -= 10\n",
+        "print(\"Sayı = \" + str(sayi))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_7iZp0JoLbGI",
+        "outputId": "e888bbc9-e01c-40c8-8549-22a101d5deee"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "75\n",
+            "Sayı = 65\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sifre = \"Python2020\"\n",
+        "sifreTekrar = \"Python2020\"\n",
+        "esitMi = (sifre == sifreTekrar)\n",
+        "print(esitMi)\n",
+        "\n",
+        "sifre = \"Python2020\"\n",
+        "sifreTekrar = \"Piton2020\"\n",
+        "esitMi = (sifre == sifreTekrar)\n",
+        "print(esitMi)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eShoeqxoMB1j",
+        "outputId": "c128ac56-a340-4d5b-fee2-8026f359bfa9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "hitap = \"Sayın\"\n",
+        "ad = \"Sudenaz Berin\"\n",
+        "soyad = \"AYDIN\"\n",
+        "birleştir = hitap + \" \" + ad +\" \" + soyad\n",
+        "print(birleştir)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xc1EprX0M_GD",
+        "outputId": "eb8aacab-59d5-42f9-d79b-5116ad277ece"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sayın Sudenaz Berin AYDIN\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metin = \"Hadi! yaa \"\n",
+        "metniCarp = metin * 3\n",
+        "print(metniCarp)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vM_0IjVOOE-G",
+        "outputId": "1f989b7e-60dc-4f48-8561-40c8abc4b0aa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hadi! yaa Hadi! yaa Hadi! yaa \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metin = \"Python Programlama Dili\"\n",
+        "print(\"'p' harfini yakala: \" + metin[7])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V9F9_50FPgix",
+        "outputId": "16a7ad52-3680-43a3-a736-4452a3c3a856"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "'p' harfini yakala: P\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metin = \"Python Programlama Dili\"\n",
+        "iHarfi = metin[-1]\n",
+        "print(iHarfi)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oxK--82LPkZI",
+        "outputId": "6c66d0b2-2cbb-45e3-a670-ea65da2f7b67"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "i\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metin = \"Python Programlama Dili\"\n",
+        "dilimle = metin[:6]\n",
+        "print(dilimle)\n",
+        "\n",
+        "metin = \"Python Programlama Dili\"\n",
+        "print(metin[7: + 18:])\n",
+        "\n",
+        "metin = \"Python Programlama Dili\"\n",
+        "print(metin[19:])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FpaeSx8xQPG9",
+        "outputId": "5d48cb05-6e70-470e-acaf-ca626110e01a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python\n",
+            "Programlama\n",
+            "Dili\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metin = \"Python Programlama Dili\"\n",
+        "print(\"Python\" in metin)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zWZA-K3IRF-K",
+        "outputId": "e3b9999c-ad55-4d69-e656-a8314745b699"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metin = \"Python programlama dili, dünyada eğitim amacıyla en çok kullanılan programlama dillerinin başında gelir.\"\n",
+        "dilimleme = metin [:51]\n",
+        "print(dilimleme)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xP63E5QaRs4B",
+        "outputId": "17671703-c73a-4d67-922a-9c18bb82d2ed"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python programlama dili, dünyada eğitim amacıyla en\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metin = 'Bilimsel çalışmalarda \"Python\" kullanımı Türkiye\\'de çok yaygınlaştı!'\n",
+        "print(metin)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QEgYSChXVojE",
+        "outputId": "00cf5232-e042-4a34-b556-75311d61c398"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bilimsel çalışmalarda \"Python\" kullanımı Türkiye'de çok yaygınlaştı!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "anahtarKelime = \"Makine Öğrenmesi\"\n",
+        "arananKelime = \"makine öğrenmesi\"\n",
+        "\n",
+        "print(anahtarKelime.lower () == arananKelime)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ztlGCle5Zy8q",
+        "outputId": "a43d8ed9-299d-421b-f521-521910efecc1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "adsoyad = \"Orçun Madran\"\n",
+        "ders = \"Programla Dilleri\"\n",
+        "\n",
+        "print(\"Merhaba %s , bu dönemki dersiniz \\\"%s\\\". Başarılar!\" %(adsoyad,ders))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3k6Xkaj5gTZN",
+        "outputId": "c2087156-3677-4393-8924-2e7aedd5ece1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Merhaba Orçun Madran , bu dönemki dersiniz \"Programla Dilleri\". Başarılar!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "urunAdi = \"Bisiklet\"\n",
+        "urunBedeliAvro = 850\n",
+        "pariteAvroTL = 7\n",
+        "urunAdet = 3\n",
+        "pesinAdetIndirimTL = 500\n",
+        "print(\"urun fiyatı= \" + str(urunBedeliAvro*urunAdet*pariteAvroTL-pesinAdetIndirimTL))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1cMC5WjuinWX",
+        "outputId": "0e69bcc6-d98d-4f73-b2b2-d2f9eb038cf3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "urun fiyatı= 17350\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "urunAdi = \"Bisiklet\"\n",
+        "urunBedeliAvro = 850\n",
+        "kurAvro = 7\n",
+        "urunAdet = 3\n",
+        "pesinAdetIndirimTL = 500\n",
+        "butce = 15000\n",
+        "urunfiyati = urunBedeliAvro*kurAvro*urunAdet-pesinAdetIndirimTL\n",
+        "print(butce==urunfiyati)"
+      ],
+      "metadata": {
+        "id": "DhwbvYXAipIS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "acıkVeri = [\"Açık Bilim\", \"Açık Erişim\", \"Açık Veri\", \"Açık Eğitim\", \"Açık Kaynak\"]\n",
+        "print(acıkVeri[2])"
+      ],
+      "metadata": {
+        "id": "rXQw_d7HC8lL",
+        "outputId": "d590f0f8-a7d4-47ff-f0da-704a03735c00",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Açık Veri\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "acıkListe = [\"Açık Bilim\", \"Açık Erişim\", \"Açık Veri\", \"Açık Eğitim\", \"Açık Kaynak\"]\n",
+        "print(acıkListe[3], acıkListe[4])"
+      ],
+      "metadata": {
+        "id": "1etlRl4HDCMz",
+        "outputId": "09ac1bfc-3298-4709-cb85-b9db3b6b7274",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Açık Eğitim Açık Kaynak\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bilgiBilim = [\"Bilgi Kuramı\", \"Bilgi \", \"Epistemoloji\"]\n",
+        "print(bilgiBilim)\n",
+        "\n",
+        "bilgiBilim.append(\"Bilgi Felsefesi\")\n",
+        "bilgiBilim.append(\"Kütüphane Bilgisi\")\n",
+        "print(bilgiBilim)\n",
+        "\n",
+        "bilgiBilim[2] = \"Kütüphane\"\n",
+        "print(bilgiBilim)"
+      ],
+      "metadata": {
+        "id": "k6viW2XTDD0S",
+        "outputId": "df11e06e-92f2-417b-80a9-2c9b7d923937",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Bilgi Kuramı', 'Bilgi ', 'Epistemoloji']\n",
+            "['Bilgi Kuramı', 'Bilgi ', 'Epistemoloji', 'Bilgi Felsefesi', 'Kütüphane Bilgisi']\n",
+            "['Bilgi Kuramı', 'Bilgi ', 'Kütüphane', 'Bilgi Felsefesi', 'Kütüphane Bilgisi']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bilgiBilim = [\"Bilgi\", \"Bilgi Kuramı\", \"Epistemoloji\"]\n",
+        "print(bilgiBilim)\n",
+        "\n",
+        "bilgiBilim[:1]\n",
+        "print(bilgiBilim)\n",
+        "\n",
+        "bilgiBilim[:] = []\n",
+        "print(bilgiBilim)"
+      ],
+      "metadata": {
+        "id": "JN0FM9C9DHvJ",
+        "outputId": "ae876387-de81-460f-c529-ea5ad57dd78f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Bilgi', 'Bilgi Kuramı', 'Epistemoloji']\n",
+            "['Bilgi', 'Bilgi Kuramı', 'Epistemoloji']\n",
+            "[]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "konuBasliklari = (\n",
+        "    \"Tarım ve Tarım Bilimleri\",\n",
+        "    \"Mimarlık ve Şehir Planlama\",\n",
+        "    \"Sanat ve Sanat Tarihi\",\n",
+        "    \"İşletme ve Ekonomi\",\n",
+        "    \"Eğitim ve Eğitim Bilimleri\",\n",
+        "    \"Mühendislik ve Teknoloji\",\n",
+        "    \"Tarih ve Arkeoloji\",\n",
+        "    \"Genel ve Uygulamalı Bilimler\",\n",
+        "    \"Dilbilim ve Filoloji\",\n",
+        "    \"Tıp ve Sağlık Bilimleri\",\n",
+        "    \"Felsefe ve Din\",\n",
+        "    \"Hukuk ve Adalet\",\n",
+        "    \"Sosyal Bilimler\",\n",
+        "    \"Coğrafya ve Coğrafya Bilimleri\",\n",
+        "    \"Edebiyat ve Edebiyat Bilimi\",\n",
+        "    \"Askeri Bilimler\",\n",
+        "    \"Fiziksel ve Doğal Bilimler\",\n",
+        "    \"Psikoloji ve Psikiyatri\",\n",
+        "    \"Spor ve Rekreasyon\",\n",
+        "    \"Medya ve İletişim\"\n",
+        ")\n",
+        "print(konuBasliklari)\n",
+        "\n",
+        "print(\"Tarım ve Tarım Bilimleri\",)"
+      ],
+      "metadata": {
+        "id": "aBxUIRzcDMrx",
+        "outputId": "05734d5f-c343-4945-a24b-0726c59c797e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('Tarım ve Tarım Bilimleri', 'Mimarlık ve Şehir Planlama', 'Sanat ve Sanat Tarihi', 'İşletme ve Ekonomi', 'Eğitim ve Eğitim Bilimleri', 'Mühendislik ve Teknoloji', 'Tarih ve Arkeoloji', 'Genel ve Uygulamalı Bilimler', 'Dilbilim ve Filoloji', 'Tıp ve Sağlık Bilimleri', 'Felsefe ve Din', 'Hukuk ve Adalet', 'Sosyal Bilimler', 'Coğrafya ve Coğrafya Bilimleri', 'Edebiyat ve Edebiyat Bilimi', 'Askeri Bilimler', 'Fiziksel ve Doğal Bilimler', 'Psikoloji ve Psikiyatri', 'Spor ve Rekreasyon', 'Medya ve İletişim')\n",
+            "Tarım ve Tarım Bilimleri\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sozluk = {\"Voleybol\": \"Servis\", \"Futbol\": \"Gol\", \"Tenis\": \"Court\", \"Basketbol\": \"Smaç\", \"Hentbol\": \"Wax\"}\n",
+        "print(sozluk)\n",
+        "\n",
+        "sozluk[\"Yüzme\"] = \"Kulaç\"\n",
+        "print(sozluk)\n",
+        "\n",
+        "del sozluk [\"Yüzme\"]\n",
+        "print(sozluk)"
+      ],
+      "metadata": {
+        "id": "_4mpqTiMDRL5",
+        "outputId": "3c0b2a33-3bfe-428d-854d-1fb09d7446a2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Voleybol': 'Servis', 'Futbol': 'Gol', 'Tenis': 'Court', 'Basketbol': 'Smaç', 'Hentbol': 'Wax'}\n",
+            "{'Voleybol': 'Servis', 'Futbol': 'Gol', 'Tenis': 'Court', 'Basketbol': 'Smaç', 'Hentbol': 'Wax', 'Yüzme': 'Kulaç'}\n",
+            "{'Voleybol': 'Servis', 'Futbol': 'Gol', 'Tenis': 'Court', 'Basketbol': 'Smaç', 'Hentbol': 'Wax'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "yeniSozluk = {\"Kedi\": \"Memeli\", \"Karga\": \"Kuş\", \"Yılan\": \"Sürüngen\", \"Solucan\": \"Omurgasız\"}\n",
+        "print(yeniSozluk)\n",
+        "\n",
+        "print(yeniSozluk.values())\n",
+        "print(yeniSozluk.keys())"
+      ],
+      "metadata": {
+        "id": "Iu0Pw1N9DVD5",
+        "outputId": "08e76407-361d-40a6-d509-9db26394e5ba",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Kedi': 'Memeli', 'Karga': 'Kuş', 'Yılan': 'Sürüngen', 'Solucan': 'Omurgasız'}\n",
+            "dict_values(['Memeli', 'Kuş', 'Sürüngen', 'Omurgasız'])\n",
+            "dict_keys(['Kedi', 'Karga', 'Yılan', 'Solucan'])\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "FHJ2ZJ7biw3V"
+      }
+    }
+  ]
+}
